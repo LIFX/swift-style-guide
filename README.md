@@ -255,24 +255,13 @@ struct Composite<T> {
 
 _Rationale:_ Omitting redundant type parameters clarifies the intent, and makes it obvious by contrast when the returned type takes different type parameters.
 
-#### Use whitespace around operator definitions
+#### Don't use whitespace around operator definitions
 
-Use whitespace around operators when defining them. Instead of:
+Don't use whitespace around operators when defining them. Instead of:
 
 ```swift
 func <|(lhs: Int, rhs: Int) -> Int
 func <|<<A>(lhs: A, rhs: A) -> A
 ```
 
-write:
-
-```swift
-func <| (lhs: Int, rhs: Int) -> Int
-func <|< <A>(lhs: A, rhs: A) -> A
-```
-
-_Rationale:_ Operators consist of punctuation characters, which can make them difficult to read when immediately followed by the punctuation for a type or value parameter list. Adding whitespace separates the two more clearly.
-
-#### Translations
-
-* [中文版](https://github.com/Artwalk/swift-style-guide/blob/master/README_CN.md)
+_Rationale:_ Adding whitespace doesn't separates the two more clearly.
