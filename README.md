@@ -268,4 +268,4 @@ _Rationale:_ Adding whitespace doesn't separates the two more clearly.
 
 #### Swift 1.2 changes
 
-http://www.raywenderlich.com/102357/swift-style-guide-april-2015-update?utm_campaign=This_Week_in_Swift_34&utm_medium=email&utm_source=This%2BWeek%2Bin%2BSwift
+[Swift style guide update](http://www.raywenderlich.com/102357/swift-style-guide-april-2015-update?)
